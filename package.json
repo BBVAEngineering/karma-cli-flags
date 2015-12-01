@@ -15,7 +15,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha -- -u exports -R spec test/**/*"
   },
   "author": "BBVAEngineering",
   "maintainers": [
@@ -40,8 +40,9 @@
     "merge": "^1.2.0",
     "minimist": "^1.2.0",
     "lodash.template": "^3.0.0"
-},
+  },
   "devDependencies": {
+    "istanbul": "^0.4.1",
     "mocha": "*"
   }
 }

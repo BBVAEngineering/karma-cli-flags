@@ -1,4 +1,4 @@
-# karma-cli-flags
+# karma-cli-flags [![Build Status](https://travis-ci.org/BBVAEngineering/karma-cli-flags.svg?branch=master)](https://travis-ci.org/BBVAEngineering/karma-cli-flags)[![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags)
 
 ## Information
 

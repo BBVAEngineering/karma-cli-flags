@@ -9,8 +9,11 @@
     "flags"
   ],
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": ""
+    "test": "mocha"
   },
   "author": "BBVAEngineering",
   "maintainers": [
@@ -35,5 +38,8 @@
     "merge": "^1.2.0",
     "minimist": "^1.2.0",
     "lodash.template": "^3.0.0"
+},
+  "devDependencies": {
+    "mocha": "*"
   }
 }

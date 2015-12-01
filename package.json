@@ -1,7 +1,7 @@
 {
   "name": "karma-cli-flags",
   "version": "0.0.1",
-  "description": "KArma preprocessor to inject cli flags",
+  "description": "Karma preprocessor to inject cli flags",
   "keywords": [
     "karma",
     "preprocessor",

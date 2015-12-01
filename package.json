@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "test": "mocha",
-    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec test/**/*"
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "author": "BBVAEngineering",
   "maintainers": [
@@ -43,6 +43,7 @@
     "lodash.template": "^3.0.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.4",
     "istanbul": "^0.4.1",
     "mocha": "*"
   }

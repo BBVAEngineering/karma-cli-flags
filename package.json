@@ -6,7 +6,9 @@
     "karma",
     "preprocessor",
     "cli",
-    "flags"
+    "flags",
+    "karma-plugin",
+    "karma-preprocessor"
   ],
   "main": "index.js",
   "files": [

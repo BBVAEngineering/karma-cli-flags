@@ -1,9 +1,11 @@
-# karma-cli-flags [![Build Status](https://travis-ci.org/BBVAEngineering/karma-cli-flags.svg?branch=master)](https://travis-ci.org/BBVAEngineering/karma-cli-flags)[![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags)
+# karma-cli-flags [![Build Status](https://travis-ci.org/BBVAEngineering/karma-cli-flags.svg?branch=master)](https://travis-ci.org/BBVAEngineering/karma-cli-flags) [![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags) [![Coverage Status](https://coveralls.io/repos/BBVAEngineering/karma-cli-flags/badge.svg?branch=master&service=github)](https://coveralls.io/github/BBVAEngineering/karma-cli-flags?branch=master)
 
 ## Information
 
+[![NPM](https://nodei.co/npm/karma-cli-flags.png?downloads=true&downloadRank=true)](https://nodei.co/npm/karma-cli-flags/)
+
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>karma-cli-flags</td>
 </tr>
 <tr>
@@ -49,7 +51,7 @@ Optionally, you can define the next parameters:
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    cliFlags: 
+    cliFlags:
         export: 'ENV',
         wrap: false,
         namespace: '__cliFlags__'
@@ -63,13 +65,13 @@ module.exports = function(config) {
 Variable containing cli args to override until the end of file
 
     export: 'ENV'
-   
+
 #### wrap
 
 Wrap code into a function
 
     wrap: false
-    
+
 #### namespace
 
 Temp var to store exported variable value

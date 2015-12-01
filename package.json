@@ -15,7 +15,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "istanbul cover _mocha -- -u exports -R spec test/**/*"
+    "test": "mocha",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec test/**/*"
   },
   "author": "BBVAEngineering",
   "maintainers": [

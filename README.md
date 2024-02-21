@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # karma-cli-flags [![Build Status](https://travis-ci.org/BBVAEngineering/karma-cli-flags.svg?branch=master)](https://travis-ci.org/BBVAEngineering/karma-cli-flags) [![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fkarma-cli-flags) [![Coverage Status](https://coveralls.io/repos/BBVAEngineering/karma-cli-flags/badge.svg?branch=master&service=github)](https://coveralls.io/github/BBVAEngineering/karma-cli-flags?branch=master)
 
 ## Information
